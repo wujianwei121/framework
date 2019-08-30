@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+   <color name="white_90">#1Affffff</color>
+    <color name="white_80">#33ffffff</color>
+    <color name="white_70">#4Dffffff</color>
+    <color name="white_60">#66ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_40">#99ffffff</color>
+    <color name="white_30">#B3ffffff</color>
+    <color name="white_20">#CCffffff</color>
+    <color name="white_10">#E6ffffff</color>
+
+    <color name="black_90">#1A000000</color>
+    <color name="black_80">#33000000</color>
+    <color name="black_70">#4D000000</color>
+    <color name="black_60">#66000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#99000000</color>
+    <color name="black_30">#B3000000</color>
+    <color name="black_20">#CC000000</color>
+    <color name="black_10">#E6000000</color>
+    <color name="white_3f">#3fffffff</color>
+    <color name="gray_c">#cccccc</color>
+    <color name="half_transparent">#3f000000</color>
+    <color name="tran_90">#9a000000</color>
+    <color name="transparent_30">#bf000000</color>
+    <color name="black">#000000</color>
+    <color name="gray_edeeee">#edeeee</color>
+    <color name="color_red">#E23B2C</color>
+    <color name="transparent">#00000000</color>//全透明
+    <color name="gray_98">#989898</color>
+    <color name="gray_3">#ff333333</color>
+    <color name="gray_f3">#f3f3f3</color>
+    <color name="gray_f2">#f2f2f2</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_c6">#c6c9cf</color>
+    <color name="gray_4a">#4a4a4a</color>
+    <color name="black_231815">#231815</color>
+    <color name="line_color">#2C313B</color>
+
+    <color name="black_20252E">#20252E</color>
+    <color name="black_2c3039">#2c3039</color>
+    <color name="black_2C3038">#2C3038</color>
+    <color name="black_34393F">#34393F</color>
+    <color name="black_34383F">#34383F</color>
+    <color name="black_21262F">#21262F</color>
+    <!--工程通用颜色-->
+    <color name="m1">#ff311329</color>
+    <color name="f1">#ff333333</color>
+    <color name="f2">#ff666666</color>
+    <color name="f120">#33333333</color>
+    <color name="f140">#66333333</color>
+    <color name="f160">#99333333</color>
+    <color name="f190">#e5333333</color>
+    <!--  按钮颜色  -->
+    <color name="cell_selected">#006699</color>
+    <color name="circle_bg">#33498bea</color>
+    <color name="gray_e6">#e6e6e6</color>
+    <color name="yellow_ca7b42">#CA7B42</color>
+    <color name="title_color">#498bea</color>
+    <!--通用-->
+    <color name="text_color">#000000</color>
+    <color name="text_color_20">#cf464646</color>
+    <color name="red">#FF280C</color>
+    <color name="red_ffe6">#ffe6e6</color>
+    <color name="red_20">#ccFF280C</color>
+    <color name="red_FF6303">#FF6303</color>
+    <color name="red_ff280c">#FF280C</color>
+    <color name="red_90">#5ac73130</color>
+    <color name="red_80">#6ac73130</color>
+    <color name="red_press">#d75f65</color>
+    <color name="bg_e1">#e1e1e1</color>
+    <color name="hint_d9">#D9D9D9</color>
+    <color name="light_grey">#FFF2F2F2</color>
+    <color name="bg_green">#f0f0f0</color>
+    <color name="bg_grey">#F0F0F0</color>
+    <color name="orange">#F96268</color>
+
+    <color name="gray_4c4c4c">#4c4c4c</color>
+    <color name="gray_9b">#9b9b9b</color>
+    <color name="gray_d8">#d8d8d8</color>
+    <color name="gray_c8">#c8c8c8</color>
+    <color name="yellow">#ffae4c</color>
+    <color name="greed">#4EEE94</color>
+    <color name="gary_82">#828282</color>
+    <color name="red_ffe">#FFE6E6</color>
+    <color name="default_bg_color">#BDBDBD</color>
+    <color name="default_title_color">#ffffff</color>
+    <color name="default_message_color">#ffffff</color>
+    <color name="default_action_color">#26a69a</color>
+
+    <!-- QR_Code -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="system_bar_color">#fed952</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="bar_1">#6BD3FF</color>
+    <color name="bar_2">#FFFF00</color>
+    <color name="bar_3">#FF7121</color>
+
+    <color name="type_gray">#f8f8f8</color>
+    <color name="type_normal">#6b6b6b</color>
+    <color name="type_checked">#535353</color>
+    <color name="divider_gray">#fafafa</color>
+
+    <color name="dialog_btn_confirm">#6b6b6b</color>
+    <color name="dialog_btn_cancel">#7ecef4</color>
+    <color name="grey_light">#E7EEF3</color>
+    <color name="dialog_title">#3e3a39</color>
+    <color name="dialog_content">#666464</color>
+    <color name="ic_default_bg_color">#33000000</color>
+    <color name="c_f9f8fd">#f9f8fd</color>
+    <color name="c_efefef">#efefef</color>
+</resources>

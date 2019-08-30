@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srlEnableFooterFollowWhenLoadFinished="true"
+    app:srlEnableScrollContentWhenLoaded="true">
+
+    <com.scwang.smartrefresh.layout.header.ClassicsHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srlAccentColor="@android:color/black"
+        app:srlPrimaryColor="@color/white" />
+
+    <com.example.framwork.widget.LoadDataLayout
+        android:id="@+id/loaddata_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+    </com.example.framwork.widget.LoadDataLayout>
+
+    <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srlAccentColor="@android:color/black"
+        app:srlClassicsSpinnerStyle="Translate"
+        app:srlPrimaryColor="@color/white" />
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

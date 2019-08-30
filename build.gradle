@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "config.gradle"
+buildscript {
+
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+        maven {
+            url 'https://www.jitpack.io'
+        }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/releases/' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

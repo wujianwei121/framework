@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Framwork</string>
+    <string name="select">%1$s/%2$s</string>
+    <!--progressActivty使用-->
+    <string name="progressActivityEmptyContentPlaceholder">我们找不到任何相关内容</string>
+    <string name="progressActivityEmptyTitlePlaceholder">暂无内容</string>
+    <string name="progressActivityErrorButton">重试</string>
+    <string name="progressActivityErrorContentPlaceholder">请检查您的网络,再试一次.</string>
+    <string name="progressActivityErrorTitlePlaceholder">请求失败</string>
+
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_header_load_earlier_hint_normal">下拉加载更多</string>
+    <string name="listview_header_load_earlier_hint_release">释放立即加载</string>
+    <string name="listview_loading">正在加载</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="load_done">加载完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="scan_text">放入框中即可进行二维码扫描</string>
+
+    <string name="system_download_component_disable">下载服务不可用,请您启用</string>
+    <string name="system_download_description">版本更新</string>
+
+
+    <string name="title_dialog">提示</string>
+    <string name="message_permission_rationale">允许以下权限以便程序继续执行：\n\n%1$s</string>
+    <string name="message_permission_always_failed">我们需要以下权限，请在设置中为我们开启：\n\n%1$s</string>
+    <string name="setting">设置</string>
+    <string name="resume">继续</string>
+    <string name="no">暂不</string>
+    <string name="permission_setting">权限设置</string>
+
+    <string name="http_server_data_format_error">服务器数据格式错误</string>
+    <string name="http_server_error">服务器开小差啦</string>
+    <string name="http_unknow_error">发生未知异常</string>
+    <string name="http_exception_network">网络不可用，请检查网络</string>
+    <string name="http_exception_url">Url格式错误啦</string>
+    <string name="http_exception_host">没有找到Url指定的服务器</string>
+    <string name="http_exception_connect_timeout">连接服务器超时</string>
+    <string name="http_exception_write">发送数据失败</string>
+    <string name="http_exception_read_timeout">读取数据超时</string>
+    <string name="http_exception_parse_error">解析数据异常</string>
+    <string name="http_exception_unknow_error">发生未知异常</string>
+    <string name="http_exception_download_error">服务器异常</string>
+    <string name="behavior_weibo_content">com.example.framwork.behavior.WeiboContentBehavior</string>
+    <string name="behavior_weibo_header">com.example.framwork.behavior.WeiboHeaderPagerBehavior</string>
+</resources>

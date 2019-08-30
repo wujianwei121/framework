@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.framwork.widget.customtoolbar.CommonTitle xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_item_height"
+    app:center_txt_color="@color/white"
+    app:left_res="@drawable/back"
+    app:right_txt_color="@color/white"
+    app:title_bg="@color/white" />

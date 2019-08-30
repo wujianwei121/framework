@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.framwork.widget.CustomWebView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wb_custom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none" />
